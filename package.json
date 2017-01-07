@@ -6,7 +6,7 @@
   "scripts": {
     "work": "webpack --display-error-details --watch",
     "build": "webpack --display-error-details -p -d",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/zk-/nodeBase#readme",
   "dependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.2.0",
     "webpack": "^1.14.0"
   }
