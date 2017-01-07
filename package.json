@@ -1,0 +1,22 @@
+{
+  "name": "nodebase",
+  "version": "1.0.0",
+  "description": "node搭建网站的codebase，分支不同功能不同\r # master\r 构建js库的codebase，用webpack打包，mocha做测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zk-/nodeBase.git"
+  },
+  "author": "zk-",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zk-/nodeBase/issues"
+  },
+  "homepage": "https://github.com/zk-/nodeBase#readme",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  }
+}
