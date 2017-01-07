@@ -4,6 +4,8 @@
   "description": "node搭建网站的codebase，分支不同功能不同\r # master\r 构建js库的codebase，用webpack打包，mocha做测试",
   "main": "index.js",
   "scripts": {
+    "work": "webpack --display-error-details --watch",
+    "build": "webpack --display-error-details -p -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/zk-/nodeBase#readme",
   "dependencies": {
+    "mocha": "^3.2.0",
     "webpack": "^1.14.0"
   }
 }
