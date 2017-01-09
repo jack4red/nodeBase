@@ -4,8 +4,8 @@
   "description": "node搭建网站的codebase，分支不同功能不同\r # master\r 构建js库的codebase，用webpack打包，mocha做测试",
   "main": "index.js",
   "scripts": {
-    "work": "webpack --display-error-details --watch",
-    "build": "webpack --display-error-details -p -d",
+    "dev": "webpack --display-error-details --watch --inline --progress --colors",
+    "build": "webpack --display-error-details -p -d --inline --progress --colors",
     "test": "mocha --recursive"
   },
   "repository": {
